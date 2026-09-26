@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Antares Hesap Silme</title>
+<meta name="description" content="Antares uygulamasında hesabınızı ve verilerinizi nasıl silebileceğiniz.">
+<style>
+  :root { --bg: #f5f7fb; --kart: #ffffff; --yazi: #1b2233; --soluk: #5b6478; --cizgi: #dde2ec; --vurgu: #2451c7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b0f1a; --kart: #121a2b; --yazi: #e6eaf3; --soluk: #9aa4b8; --cizgi: #243049; --vurgu: #7ea2ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--yazi);
+         font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 56px; }
+  h1 { font-size: 1.6rem; margin: 0 0 20px; }
+  h2 { font-size: 1.1rem; margin: 28px 0 8px; }
+  .kart { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 14px; padding: 4px 20px 20px; }
+  ol, ul { padding-left: 22px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  a { color: var(--vurgu); }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--cizgi); vertical-align: top; }
+  th { color: var(--soluk); font-weight: 600; }
+  .ozet { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--cizgi); color: var(--soluk); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Antares Hesap Silme</h1>
+
+  <div class="kart">
+    <h2>Uygulamadan silme</h2>
+    <ol>
+      <li>Antares uygulamasını açın ve <b>Profil</b> sekmesine gidin.</li>
+      <li><b>Hesabımı sil</b>'e dokunun.</li>
+      <li>Kutuya <b>SİL</b> yazın ve <b>Kalıcı olarak sil</b>'e dokunun.</li>
+    </ol>
+    <p>Hesabınız hemen silinir ve oturumunuz kapanır. Bu işlem geri alınamaz.</p>
+
+    <h2>Uygulamaya erişiminiz yoksa</h2>
+    <p>Uygulamada kayıtlı olduğunuz mail adresinden
+    <a href="mailto:antaresuavteam@gmail.com?subject=Hesab%C4%B1m%C4%B1n%20silinmesini%20istiyorum">antaresuavteam@gmail.com</a>
+    adresine <b>"Hesabımın silinmesini istiyorum"</b> konulu bir mail gönderin. Talebinizi
+    <b>en geç 30 gün içinde</b> yerine getirir ve size mail ile bildiririz. Başkasının hesabının
+    silinmesini önlemek için yalnızca kayıtlı mail adresinden gelen talepleri işleme alıyoruz.</p>
+
+    <h2>Neler silinir, neler kalır?</h2>
+    <table>
+      <tr><th>Veri</th><th>Hesap silinince</th></tr>
+      <tr><td>Adınız soyadınız, mail adresiniz</td><td>Silinir</td></tr>
+      <tr><td>Giriş hesabınız ve oturumlarınız</td><td>Silinir</td></tr>
+      <tr><td>Bildirim anahtarınız ve bildirim kayıtlarınız</td><td>Silinir</td></tr>
+      <tr><td>Rütbe ve yetkileriniz</td><td>Kaldırılır</td></tr>
+      <tr><td>Görevler, puanlar (GP), görev teslimleri, disiplin kayıtları</td>
+          <td>Takımın ortak geçmişi olduğu için silinmez; <b>"Silinmiş üye"</b> adıyla isimsiz kalır ve size bağlanamaz</td></tr>
+    </table>
+    <p>Telefonunuzdaki PIN yalnızca cihazınızda durur; hesap silindiğinde uygulama onu da siler.
+    Ayrıntılar için <a href="./">gizlilik politikasına</a> bakın.</p>
+
+    <div class="ozet" lang="en">
+      <b>English summary.</b> To delete your Antares account, open the app → Profile → "Hesabımı sil"
+      (Delete my account), type <b>SİL</b> and confirm. Without app access, email
+      <a href="mailto:antaresuavteam@gmail.com">antaresuavteam@gmail.com</a> from your registered address
+      with the subject "Delete my account"; we complete requests within 30 days. Your name, email, login
+      and notification data are deleted; shared team records (tasks, points, discipline records) remain
+      anonymised as "Deleted member".
+    </div>
+  </div>
+</main>
+</body>
+</html>
