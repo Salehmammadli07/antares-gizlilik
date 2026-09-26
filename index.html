@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Antares Gizlilik Politikası</title>
+<meta name="description" content="Antares takım uygulamasının gizlilik politikası.">
+<style>
+  :root { --bg: #f5f7fb; --kart: #ffffff; --yazi: #1b2233; --soluk: #5b6478; --cizgi: #dde2ec; --vurgu: #2451c7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b0f1a; --kart: #121a2b; --yazi: #e6eaf3; --soluk: #9aa4b8; --cizgi: #243049; --vurgu: #7ea2ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--yazi);
+         font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 56px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 28px 0 8px; }
+  .tarih { color: var(--soluk); font-size: .9rem; margin: 0 0 24px; }
+  .kart { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 14px; padding: 4px 20px 20px; }
+  ul { padding-left: 20px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  a { color: var(--vurgu); }
+  .ozet { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--cizgi); color: var(--soluk); font-size: .95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Antares Gizlilik Politikası</h1>
+  <p class="tarih">Yürürlük tarihi: 26 Eylül 2026</p>
+
+  <div class="kart">
+    <h2>1. Uygulamayı kim işletiyor?</h2>
+    <p>Antares uygulaması, Samsun Üniversitesi <b>Antares İHA Takımı</b>'nın
+    takım içi görev ve puan takibi için geliştirdiği bir uygulamadır. Kişisel
+    verilerinizle ilgili her konuda bize
+    <a href="mailto:antaresuavteam@gmail.com">antaresuavteam@gmail.com</a>
+    adresinden ulaşabilirsiniz.</p>
+
+    <h2>2. Hangi verileri topluyoruz?</h2>
+    <ul>
+      <li><b>Kimlik ve iletişim:</b> adınız soyadınız ve giriş için kullandığınız okul mailiniz.</li>
+      <li><b>Takım kayıtları:</b> size atanan görevler, görev teslimleri ve bunlara yazdığınız açıklamalar,
+        Gayret Puanı (GP) hareketleri, rütbeniz, disiplin kayıtları ve savunma metinleri.</li>
+      <li><b>Bildirim bilgisi:</b> telefonunuza bildirim gönderebilmek için cihazınızın bildirim anahtarı.</li>
+    </ul>
+    <p>Uygulamayı açarken kullandığınız 4 haneli <b>PIN yalnızca telefonunuzda</b> saklanır, bize gönderilmez.
+    Konum, rehber, fotoğraf galerisi gibi verilere erişmiyoruz; reklam ya da takip araçları kullanmıyoruz.</p>
+
+    <h2>3. Verileri ne için kullanıyoruz?</h2>
+    <p>Yalnızca takım içi işleyiş için: görevlerin atanması ve onaylanması, puanların ve rütbelerin
+    hesaplanması, takım yönetmeliğine göre disiplin sürecinin yürütülmesi ve size bildirim gönderilmesi.
+    Verilerinizi <b>satmıyoruz, reklam için kullanmıyoruz ve takım dışındaki kişilerle paylaşmıyoruz.</b>
+    Kayıtlarınızı takım üyeleri, takımdaki görevlerine göre (örneğin Ustabaşılar onay için) görebilir.</p>
+
+    <h2>4. Veriler nerede saklanıyor?</h2>
+    <ul>
+      <li><b>Supabase</b> — veritabanı ve giriş sistemi. Sunucular Frankfurt'ta (Avrupa Birliği).</li>
+      <li><b>Google Firebase</b> — yalnızca telefon bildirimlerinin iletilmesi için.</li>
+    </ul>
+    <p>Bu hizmet sağlayıcılar verileri yalnızca bizim adımıza, hizmeti sunmak için işler. Veriler
+    Türkiye dışındaki sunucularda tutulduğu için uygulamayı kullanmanız bu aktarımı da kapsar.</p>
+
+    <h2>5. Ne kadar süre saklıyoruz?</h2>
+    <p>Takım üyeliğiniz sürdüğü sürece. Hesabınızı sildiğinizde adınız, mailiniz, giriş hesabınız ve
+    bildirim kayıtlarınız silinir. Takımın geçmiş kayıtları (görevler, puanlar, disiplin kayıtları)
+    başka üyeleri de ilgilendirdiği için silinmez; bunlar <b>"Silinmiş üye" adıyla, isimsiz</b> olarak kalır
+    ve artık size bağlanamaz.</p>
+
+    <h2>6. Haklarınız</h2>
+    <p>6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) 11. madde kapsamında; verilerinizin işlenip
+    işlenmediğini öğrenme, işlenmişse bilgi isteme, işlenme amacını ve kimlere aktarıldığını öğrenme,
+    eksik veya yanlış verilerin düzeltilmesini, verilerinizin silinmesini isteme ve bu işlemlere itiraz etme
+    haklarına sahipsiniz. Başvurularınızı
+    <a href="mailto:antaresuavteam@gmail.com">antaresuavteam@gmail.com</a> adresine iletebilirsiniz;
+    en geç 30 gün içinde cevap veririz.</p>
+
+    <h2>7. Hesabınızı silme</h2>
+    <p>Uygulamada <b>Profil → Hesabımı sil</b> adımlarıyla hesabınızı istediğiniz an silebilirsiniz.
+    Uygulamaya erişiminiz yoksa <a href="hesap-silme.html">hesap silme sayfasındaki</a> adımları izleyin.</p>
+
+    <h2>8. Değişiklikler</h2>
+    <p>Bu politika değişirse bu sayfayı güncelleriz ve yukarıdaki tarihi yenileriz.</p>
+
+    <div class="ozet" lang="en">
+      <b>English summary.</b> Antares is an internal task and points tracking app of the Antares UAV Team
+      (Samsun University, Türkiye). We collect your name, school email, team records (tasks, points,
+      discipline records and texts you write) and a push notification token. Your app PIN stays on your
+      device. Data is stored on Supabase (Frankfurt, EU); notifications are delivered via Google Firebase.
+      We do not sell data, show ads or share it outside the team. You can delete your account in the app
+      (Profile → Delete my account) or by emailing
+      <a href="mailto:antaresuavteam@gmail.com">antaresuavteam@gmail.com</a>; your identity is deleted and
+      past team records remain anonymised. Contact: antaresuavteam@gmail.com.
+    </div>
+  </div>
+</main>
+</body>
+</html>
